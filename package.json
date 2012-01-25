@@ -14,7 +14,7 @@
     "node": "~0.6.8"
   },
   "dependencies": {
-    "websocket.io": "latest"
+    "ws": "0.4.0"
   },
   "devDependencies": {
     "mocha": "*",
