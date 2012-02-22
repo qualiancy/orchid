@@ -2,7 +2,7 @@
   "author": "Jake Luer <jake@qualiancy.com>",
   "name": "orchid",
   "description": "Websockets based eventful RPC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/qualiancy/orchid.git"

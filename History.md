@@ -1,4 +1,11 @@
 
+0.0.2 / 2012-02-22 
+==================
+
+  * defunct send
+  * event binding for client
+  * added base utilities for extend
+
 0.0.1 / 2012-02-22 
 ==================
 
