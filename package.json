@@ -1,7 +1,8 @@
 {
-  "author": "",
+  "author": "Jake Luer <jake@qualiancy.com>",
   "name": "orchid",
-  "version": "0.0.0",
+  "description": "Websockets based eventful RPC",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/qualiancy/orchid.git"
@@ -11,7 +12,7 @@
     "test": "make test"
   },
   "engines": {
-    "node": "~0.6.8"
+    "node": ">= 0.6.0"
   },
   "dependencies": {
     "drip": "0.2.x",
