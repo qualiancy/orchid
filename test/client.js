@@ -26,6 +26,10 @@ describe('client', function () {
     });
   });
 
+  after(function () {
+    Serv.close();
+  });
+
   it('should be a wildcarded event emitter', function (done) {
     var client = new orchid.Client('ws://localhost:4567')
       , c = 0;
