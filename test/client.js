@@ -76,4 +76,18 @@ describe('client', function () {
       client._ws.send('trigger 1');
     });
   });
+
+  it('should be able to handle retries', function (done) {
+    var server = null
+      , client = new orchid.Client('ws://localhost:4589');
+
+    setTimeout(function () {
+      server = new orchid.Server();
+      server.listen(4589);
+    }, 200);
+
+    client.on('open', function () {
+      done();
+    });
+  });
 });
